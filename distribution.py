@@ -37,4 +37,6 @@ Notice about this example:
 * Letters that do not occur in the text are not listed in the output at all.
 """
 txt = input("Please enter a string of text (the bigger the better): ")
-print('The distribution of characters in "'The rain in Spain stays mainly in the plain.'" is:')
+print('The distribution of characters in "' + txt + '" is:')
+a = txt.count('a')
+print("a" * a)
