@@ -40,3 +40,12 @@ txt = input("Please enter a string of text (the bigger the better): ").lower()
 print('The distribution of characters in "' + txt + '" is:')
 a = txt.count('a')
 print("a" * a)
+
+
+# mylist.sort()
+
+
+
+
+
+
