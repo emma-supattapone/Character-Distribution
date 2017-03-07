@@ -38,11 +38,21 @@ Notice about this example:
 """
 txt = input("Please enter a string of text (the bigger the better): ").lower()
 print('The distribution of characters in "' + txt + '" is:')
-a = txt.count('a')
-print("a" * a)
+al = txt.count('a')
+a = ("a" * al)
+
+bl = txt.count('b')
+b = ("b" * bl)
+
+cl = txt.count('c')
+c = ("c" * cl)
 
 
-# mylist.sort()
+list = [a, b]
+list.sort()
+
+for x in list:
+    print(x)
 
 
 
