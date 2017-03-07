@@ -48,12 +48,89 @@ b = ("b" * bl)
 cl = txt.count('c')
 c = ("c" * cl)
 
+dl = txt.count('d')
+d = ("d" * dl)
 
-list = [a, b]
-MAKE TWO SEPARATE LISTS
-list.append(99) and list.sort
+el = txt.count('e')
+e = ("e" * el)
 
-for x in list:
+fl = txt.count('f')
+f = ("f" * fl)
+
+gl = txt.count('g')
+g = ("g" * gl)
+
+hl = txt.count('h')
+h = ("h" * hl)
+
+il = txt.count('i')
+i = ("i" * il)
+
+jl = txt.count('j')
+j = ("j" * jl)
+
+kl = txt.count('k')
+k = ("k" * kl)
+
+ll = txt.count('l')
+l = ("l" * ll)
+
+ml = txt.count('m')
+m = ("m" * ml)
+
+nl = txt.count('n')
+n = ("n" * nl)
+
+ol = txt.count('o')
+o = ("o" * ol)
+
+pl = txt.count('p')
+p = ("p" * pl)
+
+ql = txt.count('q')
+q = ("q" * ql)
+
+rl = txt.count('r')
+r = ("r" * rl)
+
+sl = txt.count('s')
+s = ("s" * sl)
+
+tl = txt.count('t')
+t = ("t" * tl)
+
+ul = txt.count('u')
+u = ("u" * ul)
+
+vl = txt.count('v')
+v = ("v" * vl)
+
+wl = txt.count('w')
+w = ("w" * wl)
+
+xl = txt.count('x')
+x = ("x" * xl)
+
+yl = txt.count('y')
+y = ("y" * yl)
+
+zl = txt.count('z')
+z = ("z" * zl)
+
+
+
+#t = [a, b, c]
+
+e = [al, bl, cl, dl, el, fl, gl, hl, il, jl, kl, ll, ml, nl, ol, pl, ql, rl, sl, tl, ul, vl, wl, xl, yl, zl]
+e.sort()
+e.reverse()
+
+listo = zip([-al,-bl,-cl],[a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z])
+
+listoo = (sorted(list(listo)))
+print(listoo)
+
+for x in e:
     print(x)
 
 
