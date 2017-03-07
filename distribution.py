@@ -36,6 +36,7 @@ Notice about this example:
   in the text and they are listed in the output in alphabetical order.
 * Letters that do not occur in the text are not listed in the output at all.
 """
+import string
 txt = input("Please enter a string of text (the bigger the better): ").lower()
 print('The distribution of characters in "' + txt + '" is:')
 al = txt.count('a')
@@ -49,7 +50,8 @@ c = ("c" * cl)
 
 
 list = [a, b]
-list.sort()
+MAKE TWO SEPARATE LISTS
+list.append(99) and list.sort
 
 for x in list:
     print(x)
