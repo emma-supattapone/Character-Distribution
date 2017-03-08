@@ -39,99 +39,84 @@ Notice about this example:
 import string
 txt = input("Please enter a string of text (the bigger the better): ").lower()
 print('The distribution of characters in "' + txt + '" is:')
+
+
 al = txt.count('a')
-a = ("a" * al)
-
 bl = txt.count('b')
-b = ("b" * bl)
-
 cl = txt.count('c')
-c = ("c" * cl)
-
 dl = txt.count('d')
-d = ("d" * dl)
-
 el = txt.count('e')
-e = ("e" * el)
-
 fl = txt.count('f')
-f = ("f" * fl)
-
 gl = txt.count('g')
-g = ("g" * gl)
-
 hl = txt.count('h')
-h = ("h" * hl)
-
 il = txt.count('i')
-i = ("i" * il)
-
 jl = txt.count('j')
-j = ("j" * jl)
-
 kl = txt.count('k')
-k = ("k" * kl)
-
 ll = txt.count('l')
-l = ("l" * ll)
-
 ml = txt.count('m')
-m = ("m" * ml)
-
 nl = txt.count('n')
-n = ("n" * nl)
-
 ol = txt.count('o')
-o = ("o" * ol)
-
 pl = txt.count('p')
-p = ("p" * pl)
-
 ql = txt.count('q')
-q = ("q" * ql)
-
 rl = txt.count('r')
-r = ("r" * rl)
-
 sl = txt.count('s')
-s = ("s" * sl)
-
 tl = txt.count('t')
-t = ("t" * tl)
-
 ul = txt.count('u')
-u = ("u" * ul)
-
 vl = txt.count('v')
-v = ("v" * vl)
-
 wl = txt.count('w')
-w = ("w" * wl)
-
 xl = txt.count('x')
-x = ("x" * xl)
-
 yl = txt.count('y')
-y = ("y" * yl)
-
 zl = txt.count('z')
+
+
+
+
+
+em = [al, bl, cl, dl, el, fl, gl, hl, il, jl, kl, ll, ml, nl, ol, pl, ql, rl, sl, tl, ul, vl, wl, xl, yl, zl]
+em.sort()
+em.reverse()
+
+a = ("a" * al)
+b = ("b" * bl)
+c = ("c" * cl)
+d = ("d" * dl)
+e = ("e" * el)
+f = ("f" * fl)
+g = ("g" * gl)
+h = ("h" * hl)
+i = ("i" * il)
+j = ("j" * jl)
+k = ("k" * kl)
+l = ("l" * ll)
+m = ("m" * ml)
+n = ("n" * nl)
+o = ("o" * ol)
+p = ("p" * pl)
+q = ("q" * ql)
+r = ("r" * rl)
+s = ("s" * sl)
+t = ("t" * tl)
+u = ("u" * ul)
+v = ("v" * vl)
+w = ("w" * wl)
+x = ("x" * xl)
+y = ("y" * yl)
 z = ("z" * zl)
 
+string.ascii_lowercase = ("string.ascii_lowercase" * x for x in em)
 
+am = [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
 
-#t = [a, b, c]
+am.sort()
 
-e = [al, bl, cl, dl, el, fl, gl, hl, il, jl, kl, ll, ml, nl, ol, pl, ql, rl, sl, tl, ul, vl, wl, xl, yl, zl]
-e.sort()
-e.reverse()
+listo = zip(em, am)
+print(list(listo))
 
-listo = zip([-al,-bl,-cl],[a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z])
+#listoo = (list(listo))
+#print(listoo)
 
-listoo = (sorted(list(listo)))
-print(listoo)
-
-for x in e:
-    print(x)
+for (x, y) in listo:
+    print(y)
 
 
 
