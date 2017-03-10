@@ -73,8 +73,8 @@ zl = txt.count('z')
 
 
 em = [al, bl, cl, dl, el, fl, gl, hl, il, jl, kl, ll, ml, nl, ol, pl, ql, rl, sl, tl, ul, vl, wl, xl, yl, zl]
-em.sort()
-em.reverse()
+#em.sort()
+#em.reverse()
 
 a = ("a" * al)
 b = ("b" * bl)
@@ -103,14 +103,19 @@ x = ("x" * xl)
 y = ("y" * yl)
 z = ("z" * zl)
 
-string.ascii_lowercase = ("string.ascii_lowercase" * x for x in em)
+#string.ascii_lowercase = ("string.ascii_lowercase" * x for x in em)
 
 am = [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+emm = [0 - x for x in em]
 
-am.sort()
+#am.sort()
+#am.reverse()
+#am.sort()
 
-listo = zip(em, am)
-print(list(listo))
+listo = list(zip(emm, am))
+listo.sort()
+#listo.reverse()
+#print(list(listo))
 
 #listoo = (list(listo))
 #print(listoo)
