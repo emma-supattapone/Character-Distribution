@@ -77,11 +77,11 @@ em = [al, bl, cl, dl, el, fl, gl, hl, il, jl, kl, ll, ml, nl, ol, pl, ql, rl, sl
 a = ("a" * al)
 b = ("b" * bl)
 c = ("c" * cl)
-d = ("d" * dl)
+db = ("d" * dl)
 e = ("e" * el)
 f = ("f" * fl)
 g = ("g" * gl)
-h = ("h" * hl)
+hb = ("h" * hl)
 i = ("i" * il)
 j = ("j" * jl)
 k = ("k" * kl)
@@ -101,7 +101,7 @@ x = ("x" * xl)
 y = ("y" * yl)
 z = ("z" * zl)
 
-am = [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+am = [a, b, c, db, e, f, g, hb, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
 emm = [0 - x for x in em]
 
 
