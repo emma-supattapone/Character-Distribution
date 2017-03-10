@@ -38,7 +38,7 @@ Notice about this example:
 """
 import string
 txt = input("Please enter a string of text (the bigger the better): ")
-print('The distribution of characters in "' + txt + '" is:')
+print('The distribution of characters in "' + txt + '" is: ')
 txt.lower()
 
 al = txt.count('a')
