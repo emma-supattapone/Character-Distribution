@@ -50,7 +50,7 @@ fl = txt.count('f')
 gl = txt.count('g')
 hl = txt.count('h')
 il = txt.count('i')
-jlb = txt.count('j')
+jl = txt.count('j')
 kl = txt.count('k')
 ll = txt.count('l')
 ml = txt.count('m')
@@ -72,18 +72,18 @@ zl = txt.count('z')
 
 
 
-em = [al, bl, cl, dl, el, fl, gl, hl, il, jlb, kl, ll, ml, nl, ol, pl, ql, rl, sl, tl, ul, vl, wl, xl, yl, zl]
+em = [al, bl, cl, dl, el, fl, gl, hl, il, jl, kl, ll, ml, nl, ol, pl, ql, rl, sl, tl, ul, vl, wl, xl, yl, zl]
 
 a = ("a" * al)
 b = ("b" * bl)
 c = ("c" * cl)
-db = ("d" * dl)
+d = ("d" * dl)
 e = ("e" * el)
 f = ("f" * fl)
 g = ("g" * gl)
-hb = ("h" * hl)
+h = ("h" * hl)
 i = ("i" * il)
-j = ("j" * jlb)
+j = ("j" * jl)
 k = ("k" * kl)
 l = ("l" * ll)
 m = ("m" * ml)
@@ -101,7 +101,7 @@ x = ("x" * xl)
 y = ("y" * yl)
 z = ("z" * zl)
 
-am = [a, b, c, db, e, f, g, hb, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
+am = [a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z]
 emm = [0 - x for x in em]
 
 
