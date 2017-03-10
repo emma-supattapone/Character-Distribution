@@ -50,7 +50,7 @@ fl = txt.count('f')
 gl = txt.count('g')
 hl = txt.count('h')
 il = txt.count('i')
-jl = txt.count('j')
+jlb = txt.count('j')
 kl = txt.count('k')
 ll = txt.count('l')
 ml = txt.count('m')
@@ -72,7 +72,7 @@ zl = txt.count('z')
 
 
 
-em = [al, bl, cl, dl, el, fl, gl, hl, il, jl, kl, ll, ml, nl, ol, pl, ql, rl, sl, tl, ul, vl, wl, xl, yl, zl]
+em = [al, bl, cl, dl, el, fl, gl, hl, il, jlb, kl, ll, ml, nl, ol, pl, ql, rl, sl, tl, ul, vl, wl, xl, yl, zl]
 
 a = ("a" * al)
 b = ("b" * bl)
@@ -83,7 +83,7 @@ f = ("f" * fl)
 g = ("g" * gl)
 hb = ("h" * hl)
 i = ("i" * il)
-j = ("j" * jl)
+j = ("j" * jlb)
 k = ("k" * kl)
 l = ("l" * ll)
 m = ("m" * ml)
